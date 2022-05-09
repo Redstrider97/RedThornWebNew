@@ -1,0 +1,99 @@
+body{
+    /* background-color: black; */
+    color: wheat;
+    padding: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.1vw;
+}
+.containerborder{
+    padding-top: 3%;
+    margin: 2%;
+    margin-top: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 5px #166b64 groove;
+}
+footer{
+    margin-left: 10%;
+    display: flex;
+    margin-right: 10%;
+}
+.mail{
+    margin-right: 6.5%;
+}
+.copyright{
+    white-space: nowrap;
+}
+@font-face {
+    font-family: 'Adonais Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adonais Regular'), url('Adonais.woff') format('woff');
+}
+  @font-face {
+    font-family: "Evil Empire";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evil Empire'), url('Evil Empire.woff') format('woff');
+  }
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 0%;
+    padding-bottom: none;
+    margin-bottom: none;
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.hometab {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0%;
+    border: 5px #166b64 groove;
+    border-bottom: none;
+    font-family: 'Evil Empire';
+    font-size: 2vw;
+    display: inline-flex;
+}
+.navbar .hometab a{
+    text-decoration: none;
+    color: #B3172F;
+}
+.navbar .hometab a:hover{
+    color: whitesmoke;
+}
+.copyright {
+    margin: auto;
+    padding: 2%;
+}
+.logo {
+    padding-bottom: 3%;
+}
+.recentPost .recentPostBorder a{
+    font-size: 0.9vw;
+    font-style: italic;
+    color: wheat;
+    font-weight: bold;
+}
+.recentPost .recentPostBorder a:hover{
+    color: white;
+    background-color: grey;
+}
+.recentPost{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.recentPostBorder {
+    padding: 10%;
+    margin-right: 30%;
+    border: 2px #166b64 groove;
+}
+.copyright{
+    font-weight: bold;
+    font-size: 1.1vw;
+}
