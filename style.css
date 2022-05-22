@@ -2,8 +2,10 @@ body{
     /* background-color: black; */
     color: wheat;
     padding: 3%;
+    padding-bottom: 0%;
     margin-left: 4%;
     margin-right: 4%;
+    margin-bottom: 0%;
     font-size: 1.1vw;
 }
 .containerborder{
@@ -24,6 +26,8 @@ footer{
 }
 .copyright{
     white-space: nowrap;
+    font-weight: bold;
+    font-size: 1.1vw;
 }
 @font-face {
     font-family: 'Adonais Regular';
@@ -93,7 +97,158 @@ footer{
     margin-right: 30%;
     border: 2px #166b64 groove;
 }
-.copyright{
+.container .textDisc a{
+    text-decoration: none;
+}
+h2.faqSubHead {
+    font-family: "Evil Empire";
+    font-size: 2vw;
+    color: #B3172F;
+    text-decoration: underline;
+}
+p.questions {
     font-weight: bold;
-    font-size: 1.1vw;
+    font-style: italic;
+}
+h2.blogTitle {
+    font-family: "Evil Empire";
+    font-size: 2.5vw;
+    color: #B3172F;
+}
+h6.blogDate{
+    color: rgb(155, 155, 155);
+    font-size: 0.8vw;
+}
+h1.homeHead{
+    color: #B3172F;
+    font-size: 3.6vw;
+    font-family: "Evil Empire";
+}
+.textDisc a{
+    cursor: pointer;
+    text-decoration: none;
+    color: wheat;
+    font-style: italic;
+}
+.textDisc a:hover{
+    background-color: grey;
+    color: white;
+}
+
+section.contactForm {
+    margin-bottom: 1%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formContainer {
+    width: 90%;
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 4%;
+    padding-top: 1%;
+    margin-bottom: 3%;
+}
+.form-group {
+    width: 100%;
+    margin-top: 4%;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 1%;
+    margin-top: 1%;
+}
+  
+textarea {
+    resize: vertical;
+}
+button[type="submit"] {
+    width: 60%;
+    border: none;
+    outline: none;
+    padding: 3%;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    font-family: "Evil Empire";
+    color: #B3172F;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2%;
+    transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+    background-color: wheat;
+}
+#status {
+    width: 90%;
+    max-width: 30%;
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#status.success {
+    background-color: rgb(211, 250, 153);
+    color: white;
+    animation: status 4s ease forwards;
+}
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+  @keyframes status {
+    0% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    90% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    100% {
+      opacity: 0;
+      pointer-events: none;
+}
+}
+.supportTitle {
+    text-align: center;
+    padding-top: 4%;
+    font-family: "Evil Empire";
+    font-size: 2.5vw;
+    color: #B3172F;
+}
+h2.alexBall {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 3vw;
+    font-family: "Adonais Regular";
+    color: #fcb634;
+}
+p.steamText{
+    text-align: center;
+    margin: 5%;
+}
+.screenshots {
+    display: flex;
+}
+.alexBallTitles {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: "Adonais Regular";
+    color: #fcb634;
+}
+.blog3steam a{
+    text-decoration: none;
+    color: wheat;
+    font-style: italic;
+    font-weight: bold;
+}
+.blog3steam a:hover{
+    color: white;
+    background-color: grey;
 }
