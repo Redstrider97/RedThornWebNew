@@ -12,8 +12,9 @@
   <!-- <link href="http://fonts.cdnfonts.com/css/adonais" rel="stylesheet"> -->    
 </head>
 <body class="bg-dark">
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Scroll To Top</button>
   <!-- Company Logo -->
-  <img src="Images/Company_Logo.png" class="logo img-fluid mx-auto d-block" alt="" width="18%">
+  <img src="Images/Company_Logo.png" class="logo img-fluid mx-auto d-block" alt="" width="12%">
   <!-- Navbar -->
   <div class="navbar">
     <button class = "hometab bg-dark" type="button"><a href="index.html">Home</a></button>
@@ -28,8 +29,39 @@
     <p class="steamText">Ascend to the Macedonian throne as Alexander the Great and relive his conquests. Fighting alongside redoubtable and quirky commanders, recruit numerous types of balls for your army, construct countless cities called Alexandria, and build an empire that stretches to the ends of the known world.</p>
     <h2 class="alexBallTitles">Complex Turn-Based Battles</h2>
     <div class="screenshots">
-      <img src="Images/Battle_Screen.png" class="img-fluid mx-auto d-block" alt="" width="45%">
-      <img src="Images/Battle_Screen_Zoomed.png" class="img-fluid mx-auto d-block" alt="" width="45%">
+
+      <!-- <img src="Images/Battle_Screen.png" class="img-fluid mx-auto d-block" alt="" width="45%"> -->
+      
+      <img id="myImg" src="Images/Battle_Screen.png" class="img-fluid mx-auto d-block" alt="Battle Screen" style="width: 45%;">
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <!-- <img src="Images/Battle_Screen_Zoomed.png" class="img-fluid mx-auto d-block" alt="" width="45%"> -->
+
+      <img id="myImg" src="Images/Battle_Screen_Zoomed.png" class="img-fluid mx-auto d-block" alt="Battle Screen Zoomed" style="width: 45%;">
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
     </div>
     <p class="steamText">Employ intricate tactics! Outflank your opponents for bonus damage! Instruct your infantry to fortify against attacks! Charge your cavalry into your foes! Keep your ranged units out of trouble and feather your enemies with arrows! Utilize your limited action points in any manner of your choosing each turn to command your army. A infinite range of possibilities await on the battlefield!</p>
     <h2 class="alexBallTitles">The Living, Breathing World of 4th Century BC</h2>
@@ -79,5 +111,6 @@
   
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </body>
 </html>

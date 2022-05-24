@@ -2,19 +2,40 @@ body{
     /* background-color: black; */
     color: wheat;
     padding: 3%;
-    padding-bottom: 0%;
+    padding-top: 1%;
     margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 0%;
     font-size: 1.1vw;
 }
+#myBtn {
+    display: none;
+    font-family: "Evil Empire";
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 1.2vw;
+    border: none;
+    outline: none;
+    background-color: #B3172F;
+    color: wheat;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  /* #myBtn:hover {
+    background-color: #555;
+  } */
 .containerborder{
     padding-top: 3%;
     margin: 2%;
     margin-top: 0%;
     padding-left: 3%;
     padding-right: 3%;
-    border: 5px #166b64 groove;
+    border: 5px #166b64 solid;
+    border-radius: 8px;
 }
 footer{
     margin-left: 10%;
@@ -58,11 +79,12 @@ footer{
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 0%;
-    border: 5px #166b64 groove;
+    border: 5px #166b64 solid;
     border-bottom: none;
     font-family: 'Evil Empire';
     font-size: 2vw;
     display: inline-flex;
+    border-radius: 8px;
 }
 .navbar .hometab a{
     text-decoration: none;
@@ -76,7 +98,7 @@ footer{
     padding: 2%;
 }
 .logo {
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 .recentPost .recentPostBorder a{
     font-size: 0.9vw;
@@ -243,7 +265,6 @@ p.steamText{
     color: #fcb634;
 }
 .blog3steam a{
-    text-decoration: none;
     color: wheat;
     font-style: italic;
     font-weight: bold;
@@ -252,3 +273,83 @@ p.steamText{
     color: white;
     background-color: grey;
 }
+
+/* MODAL */
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 3%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 60%;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 60%;
+    text-align: center;
+    color: #ccc;
+    padding: 1%;
+    height: 2%;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    color: #f1f1f1;
+    font-size: 2vw;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 90%;
+    }
+  }
