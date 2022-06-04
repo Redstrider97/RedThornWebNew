@@ -34,7 +34,7 @@ body{
     margin-top: 0%;
     padding-left: 3%;
     padding-right: 3%;
-    border: 5px #166b64 solid;
+    border: 4px #166b64 solid;
     border-radius: 8px;
 }
 footer{
@@ -79,7 +79,7 @@ footer{
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 0%;
-    border: 5px #166b64 solid;
+    border: 4px #166b64 solid;
     border-bottom: none;
     font-family: 'Evil Empire';
     font-size: 2vw;
@@ -102,9 +102,8 @@ footer{
 }
 .recentPost .recentPostBorder a{
     font-size: 0.9vw;
-    font-style: italic;
     color: wheat;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .recentPost .recentPostBorder a:hover{
     color: white;
@@ -117,7 +116,8 @@ footer{
 .recentPostBorder {
     padding: 10%;
     margin-right: 30%;
-    border: 2px #166b64 groove;
+    border: 2px #166b64 solid;
+    border-radius: 5px;
 }
 .container .textDisc a{
     text-decoration: none;
