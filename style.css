@@ -56,12 +56,12 @@ footer{
     font-weight: normal;
     src: local('Adonais Regular'), url('Adonais.woff') format('woff');
 }
-  @font-face {
+@font-face {
     font-family: "Evil Empire";
     font-style: normal;
     font-weight: normal;
     src: local('Evil Empire'), url('Evil Empire.woff') format('woff');
-  }
+}
 .navbar {
     width: 100%;
     margin: auto;
