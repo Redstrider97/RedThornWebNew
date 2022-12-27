@@ -146,6 +146,9 @@ h1.homeHead{
     font-size: 3.6vw;
     font-family: "Evil Empire";
 }
+h2.steamPurchase{
+    font-size: 3.0vw;
+}
 .textDisc a{
     cursor: pointer;
     text-decoration: none;
