@@ -24,10 +24,10 @@ body{
     padding: 15px;
     border-radius: 4px;
   }
-  .containerborder .steamlink .steamPurchase a:hover {
+.containerborder .steamlink .steamPurchase a:hover {
     color: white;
   }
-  
+
   /* #myBtn:hover {
     background-color: #555;
   } */
