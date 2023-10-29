@@ -24,7 +24,8 @@ body{
     padding: 15px;
     border-radius: 4px;
   }
-.containerborder .steamlink .steamPurchase a:hover {
+
+.containerborder .steamlink .steamPurchase a {
     color: white;
   }
 
