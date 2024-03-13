@@ -298,13 +298,12 @@ p.steamText{
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
-    position:relative;
+    position: relative;
     display: inline-block;
   }
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-    margin-right: 20px;
     display: none;
     position: absolute;
     text-align: center;
@@ -317,9 +316,11 @@ p.steamText{
   /* Links inside the dropdown */
   .dropdown-content a {
     color: #141926;
-    padding: 12px 16px;
+    padding: 12px 12px;
     text-decoration: none;
+    font-size: 1.3vw;
     display: block;
+    overflow: hidden;
   }
   
   /* Change color of dropdown links on hover */
@@ -328,7 +329,6 @@ p.steamText{
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
-
 }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -350,6 +350,8 @@ p.steamText{
     background-color: #B3172F;
     margin-left: 20%;
     float: left;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 .flex-links .devblogweb a:hover{
     opacity: 0.6;
@@ -365,6 +367,8 @@ p.steamText{
     text-decoration: none;
     margin-right: 20%;
     float: right;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 .flex-links .presskitweb a:hover {
     opacity: 0.6;
@@ -377,4 +381,6 @@ p.steamText{
 .alexDescText{
     text-align: center;
     margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
